@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bfs-hotels",
+    "name": "Swiss Federal Statistical Office (BFS) - Hotel accommodation",
+    "category": "Overnights",
+    "status": "planned connector",
+    "url": "https://www.bfs.admin.ch/bfs/en/home/statistics/tourism/tourist-accommodation/hotel-accommodation.html",
+    "notes": "Use for overnights, accommodation supply and hiddenness balancing."
+  },
+  {
+    "id": "meteoswiss-climate",
+    "name": "MeteoSwiss - Climate normals",
+    "category": "Weather",
+    "status": "planned connector",
+    "url": "https://opendatadocs.meteoswiss.ch/c-climate-data/c6-climate-normals",
+    "notes": "Use for summer climate comfort."
+  },
+  {
+    "id": "opentransportdata-gtfs",
+    "name": "OpenTransportData Switzerland - GTFS",
+    "category": "Public transport",
+    "status": "planned connector",
+    "url": "https://opentransportdata.swiss/en/cookbook/timetable-cookbook/gtfs/",
+    "notes": "Use for station-based one-hour access logic."
+  },
+  {
+    "id": "swisstopo-hiking",
+    "name": "swisstopo / swissTLM3D - Hiking trails",
+    "category": "Nature",
+    "status": "planned connector",
+    "url": "https://opendata.swiss/en/dataset/swisstlm3d-wanderwege",
+    "notes": "Use for hiking and mountain access."
+  },
+  {
+    "id": "osm-poi",
+    "name": "OpenStreetMap tourism and amenity tags",
+    "category": "POI proxy",
+    "status": "planned connector",
+    "url": "https://wiki.openstreetmap.org/wiki/Key:tourism",
+    "notes": "Use carefully for museums and restaurant presence."
+  }
+]
