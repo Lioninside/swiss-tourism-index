@@ -45,4 +45,4 @@ The static site will be generated in `out/`.
 
 ## Important MVP note
 
-The current one-hour access logic is intentionally modeled and curated. The app structure is ready to swap in public data connectors later.
+The current one-hour access logic is intentionally modeled and curated. The app now includes a connector-ready BFS demand layer for total overnights, arrivals and domestic vs international demand, but you still need to add the official BFS export files into `data/raw/` to replace placeholders with real values.
